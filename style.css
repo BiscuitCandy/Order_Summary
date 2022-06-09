@@ -1,0 +1,147 @@
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:hsl(225, 100%, 94%);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-size: contain;
+}
+
+.contianer {
+    width: 350px;
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+}
+
+.order_image {
+    width: inherit;
+    height: 35%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.order_heading {
+    margin-bottom: 0px;
+
+}
+
+.order_desc {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: gray;
+    font-weight: 500;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    background: hsl(225, 100%, 98%);
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.plan_img {
+    width: 30px;
+    height: 30px;
+}
+
+.inner_plan {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan_heading {
+    font-weight: 700;
+}
+
+.plan_desc {
+    align-self: flex-start;
+    color: gray;
+
+}
+
+.button_change {
+    background: transparent;
+    border: none;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.button_change:hover {
+    font-weight: 900;
+
+}
+
+.proc_pay {
+    display: block;
+    padding: 10px;
+    font-weight: 700;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    color: hsl(225, 100%, 98%);
+    background: hsl(245, 75%, 52%);
+    filter: drop-shadow(0px 10px 0px hsl(225, 100%, 98%));
+
+}
+
+.proc_pay:hover {
+    background: transparent;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%)
+}
+
+.cancle_ord {
+    display: block;
+    padding: 7px;
+    width: 80%;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+
+}
+
+.cancle_ord:hover {
+    font-weight: 900;
+    border: hsl(245, 75%, 52%) solid 3px;
+    border-radius: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 400px) {
+
+    .body {
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+
+    .contianer {
+        width: 325px;
+    }
+
+
+}
